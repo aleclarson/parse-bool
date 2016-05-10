@@ -1,5 +1,5 @@
 
-# parse-bool v0.0.1 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
+# parse-bool 0.0.1 ![stable](https://img.shields.io/badge/stability-stable-4EBA0F.svg?style=flat)
 
 ```CoffeeScript
 parseBool = require "parse-bool"

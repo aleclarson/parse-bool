@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "parseBool.js",
+  "sourceRoot": "../../spec",
+  "sources": [
+    "parseBool.coffee"
+  ],
+  "names": [],
+  "mappings": ""
+}

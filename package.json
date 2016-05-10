@@ -1,15 +1,13 @@
 {
   "name": "parse-bool",
-  "description": "",
   "version": "0.0.1",
-  "main": "./js/src/index",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-coffee": "aleclarson/grunt-contrib-coffee",
-    "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^3.2.0"
-  },
+  "main": "./js/src/parseBool",
   "dependencies": {
-    "in-array": "^0.1.0"
+    "in-array": "aleclarson/in-array#1.0.0"
+  },
+  "lotus": {
+    "plugins": [
+      "lotus-coffee"
+    ]
   }
 }

@@ -2,12 +2,18 @@
   "name": "parse-bool",
   "version": "0.0.1",
   "main": "./js/src/parseBool",
-  "dependencies": {
-    "in-array": "aleclarson/in-array#1.0.0"
+  "plugins": [
+    "lotus-coffee"
+  ],
+  "scripts": {
+    "build": "coffee -cb -o js src",
+    "postinstall": "postinstall-build js 'npm run build'"
   },
-  "lotus": {
-    "plugins": [
-      "lotus-coffee"
-    ]
+  "dependencies": {
+    "in-array": "aleclarson/in-array#1.0.0",
+    "postinstall-build": "0.2.x"
+  },
+  "devDependencies": {
+    "coffee-script": "1.9.x"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "parse-bool",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "in-array": "aleclarson/in-array#1.0.0"
   },
